@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book a Confidential Session — SukoonMind Mental Health Clinic Lahore</title>
+<meta name="description" content="Book a private therapy session at SukoonMind, Lahore — in person or online, Urdu or English — confirmed on WhatsApp with a booking reference.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header"><div class="container nav-in">
+<a href="index.html" class="logo"><span class="logo-mark">&#10047;</span>Sukoon<em>Mind</em><small>MENTAL HEALTH &middot; LAHORE</small></a>
+<nav class="nav" id="nav"><a href="index.html" class="">Home</a><a href="therapists.html" class="">Therapists</a><a href="services.html" class="">Services</a><a href="booking.html" class="active">Book a Session</a><a href="about.html" class="">About</a><a href="contact.html" class="">Contact</a><a href="booking.html" class="btn btn-sm">Book a Session</a></nav>
+<button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+</div></header>
+
+<section class="page-head"><div class="container"><h1>Book a Private Session</h1><p>Your booking is confidential. First name only is fine — we only ask for a WhatsApp number so we can confirm your slot.</p></div></section>
+<section class="sec"><div class="container two">
+<div><img src="images/calm.jpg" alt="A quiet moment of rest">
+<h2 style="margin-top:1.2rem">Your privacy, in writing</h2>
+<ul class="tick"><li>Nothing you share is posted, recorded or shared without your permission</li>
+<li>Sessions happen in a private room — or a private video call</li>
+<li>You choose the therapist focus, language and format</li>
+<li>Cancel or reschedule free of charge up to 12 hours before</li></ul>
+<p class="muted small">If you feel you may act on thoughts of harming yourself, please reach out right away to someone you trust or to local emergency services — booking a session is not a substitute for urgent help.</p></div>
+<div>
+<form class="form" id="bookForm">
+<label>First name (only) <input required id="bName" placeholder="e.g. Ayesha"></label>
+<label>WhatsApp number <input required id="bPhone" placeholder="03xx xxxxxxx" pattern="[0-9+ -]{10,15}"></label>
+<label>What would you like support with?
+<select id="bService">
+<option>Individual Therapy</option><option>Couples &amp; Family</option><option>Teen &amp; Student</option>
+<option>Online Therapy</option><option>Support Group</option><option>Mindfulness Workshop</option>
+<option>Not sure yet — help me choose</option></select></label>
+<label>Session format
+<select id="bMode"><option>In person — Gulberg, Lahore</option><option>Online — video call</option></select></label>
+<label>Preferred language
+<select id="bLang"><option>Urdu</option><option>English</option><option>Urdu / English mix</option></select></label>
+<label>Preferred day <input type="date" id="bDate" required></label>
+<label>Preferred time
+<select id="bTime"><option>10:00 AM</option><option>12:00 PM</option><option>2:00 PM</option><option>4:00 PM</option><option>6:00 PM</option><option>7:00 PM</option></select></label>
+<label>Anything you want your therapist to know first? (optional)
+<textarea id="bNote" rows="3" placeholder="A few words, only if you want to share"></textarea></label>
+<button class="btn btn-peach wide" type="submit">Confirm on WhatsApp &rarr;</button>
+<p class="err" id="bErr"></p>
+<div class="success" id="bSuccess" hidden></div>
+</form>
+</div></div></section>
+
+<footer class="footer"><div class="container foot-in">
+<div><a href="index.html" class="logo"><span class="logo-mark">&#10047;</span>Sukoon<em>Mind</em><small>MENTAL HEALTH &middot; LAHORE</small></a>
+<p>A calm, private space in Gulberg, Lahore — for therapy, support and practical tools for everyday mental wellbeing.</p>
+<p class="muted small">If you feel you may act on thoughts of harming yourself, please reach out right away to someone you trust or to local emergency services.</p></div>
+<div><h4>Explore</h4><a href="therapists.html">Our Therapists</a><a href="services.html">Services &amp; Fees</a><a href="booking.html">Book a Session</a></div>
+<div><h4>Visit Us</h4><p>Main Boulevard, Gulberg III,<br>Lahore, Pakistan<br>Mon&ndash;Sat: 10:00 AM &ndash; 8:00 PM</p></div>
+<div><h4>Book</h4><p>Call / WhatsApp:<br><a href="https://wa.me/923001234567">+92 300 1234567</a></p><a href="booking.html" class="btn btn-peach">Book a Session</a></div>
+</div><p class="foot-note">&copy; 2026 SukoonMind Mental Health Clinic, Lahore. Sessions are confidential. This is a demonstration website — bookings are confirmed on WhatsApp.</p></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
